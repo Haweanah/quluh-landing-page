@@ -502,42 +502,7 @@ nav button#close-menu-btn {
   background: var(--color-bg2);
   color: var(--color-white);
 }
-  /* TEAM */
-
-.team__member {
-  background: var(--color-bg2);
-  padding: 2rem;
-  border: 1px solid transparent;
-  transition: var(--transition);
-  position: relative;
-  overflow: hidden;
-}
-
-.team__member:hover {
-  background: transparent;
-  border-color: var(--color-primary);
-}
-
-.team__member-image img {
-  filter: saturate(0);
-}
-
-.team__member:hover img {
-  filter: saturate(1);
-}
-
-.team__member-info p {
-  color: var(--color-light);
-}
-
-
-.team__member-socials a {
-  padding: 1rem;
-
-}
-
-
-
+ 
 /* HEADER */
 header {
   height: 52vh;
